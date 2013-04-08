@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>clmemo</string>
+	</array>
+	<key>name</key>
+	<string>clmemo</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^[0-9].*</string>
+			<key>name</key>
+			<string>entity.name.function.header.clmemo</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\*.*:</string>
+			<key>name</key>
+			<string>keyword.control.title</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.clmemo</string>
+	<key>uuid</key>
+	<string>751860be-c1b9-4357-837b-f9c69b481ac4</string>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+{ "name": "clmemo",
+  "scopeName": "source.clmemo",
+  "fileTypes": ["clmemo"],
+  "patterns": [
+    {  "name": "entity.name.function.header.clmemo",
+       "match": "^[0-9].*"
+    },
+    {  "name": "keyword.control.title",
+       "match": "\\*.*:"
+    }
+  ],
+  "uuid": "751860be-c1b9-4357-837b-f9c69b481ac4"
+}

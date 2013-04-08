@@ -1,0 +1,28 @@
+[
+  { "keys": ["ctrl+shift+l"], "command": "sublime_clmemo" },
+  { "keys": ["f1"], "command": "task_moved_to_today", "context": 
+    [
+      { "key": "selector", "operator": "equal", "operand": "source.clmemo" }
+    ]
+  },
+  { "keys": ["f2"], "command": "sublime_clmemo_grep", "context": 
+    [
+      { "key": "selector", "operator": "equal", "operand": "source.clmemo" }
+    ]
+  },
+  { "keys": ["ctrl+t"], "command": "task_complete", "context": 
+    [
+      { "key": "selector", "operator": "equal", "operand": "source.clmemo" }
+    ]
+  },
+  { "keys": ["ctrl+m"], "command": "task_cancel", "context": 
+    [
+      { "key": "selector", "operator": "equal", "operand": "source.clmemo" }
+    ]
+  },
+  { "keys": ["ctrl+i"], "command": "task_new", "context": 
+    [
+      { "key": "selector", "operator": "equal", "operand": "source.clmemo" }
+    ]
+  }
+]

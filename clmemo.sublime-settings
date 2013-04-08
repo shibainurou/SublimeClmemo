@@ -1,0 +1,14 @@
+/* Sublime AizuOnlineJudge default settings */
+{
+  "open_tasks_bullet": "☐", // options: - | ❍ | ❑ | □ | ☐ | – | — |
+  "done_tasks_bullet": "✔", // options: + | ✓ | ✔ | ■ |
+  "canc_tasks_bullet": "✘",
+  "max_move_entry": 2,
+
+  "changelog_path": "D:\\mydocument\\work\\memo\\clmemo",
+  "user_name": "name",
+  "mail_address": "mail@address.com",
+  "titles": ["todo", "daiary", "python", "idea", "chatwork", "sublime", "buy", "pay", "book"],
+
+  "font_options": [ "subpixel_antialias", "no_round", "directwrite"]
+}
